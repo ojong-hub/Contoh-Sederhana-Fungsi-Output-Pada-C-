@@ -1,0 +1,42 @@
+using System;
+
+namespace Buku_CSharp
+{
+    class Input_Output
+    {
+        static void Main(string[] args)
+        {
+            //-- deklarasi variabel (INPUT):
+            Console.WriteLine("Contoh Fungsi Input - Output");
+            Console.WriteLine("****************************");
+            Console.WriteLine("");
+            Console.Write("Masukkan Angka Pertama : ");
+            int angka1 = int.Parse(Console.ReadLine());
+            Console.Write("Masukkan Angka Kedua : ");
+            int angka2 = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            
+            //-- proses perhitungan (PROSES):
+            int tambah = angka1 + angka2;
+            int kurang = angka1 - angka2;
+            int kali = angka1 * angka2;
+            double bagi = angka1 / angka2;
+            double sisa = angka1 % angka2;
+            
+            //-- cetak hasil proses (OUTPUT)
+            Console.WriteLine("  HASIL PENGHITUNGAN : ");
+            Console.WriteLine("");
+            Console.WriteLine("  Angka Pertama : " + angka1);
+            Console.WriteLine("  Angka Kedua   : " + angka2);
+            Console.WriteLine("  Penjumlahan ===> " + angka1 + " + " + angka2 + " = " + tambah);
+            Console.WriteLine("  Pengurangan ===> " + angka1 + " - " + angka2 + " = " + kurang);
+            Console.WriteLine("  Perkalian ===> " + angka1 + " X " + angka2 + " = " + kali);
+            Console.WriteLine("  Pembagian ===> " + angka1 + " / " + angka2 + " = " + bagi);
+            Console.WriteLine("  Sisa Pembagian  ===> " + angka1 + " % " + angka2 + " = " + sisa);
+            //Console.WriteLine(garis);
+            Console.ReadKey();
+        }
+    }
+}
+
+
