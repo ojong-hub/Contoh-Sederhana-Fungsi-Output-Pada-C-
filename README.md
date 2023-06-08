@@ -1,4 +1,4 @@
-# Contoh-Sederhana-Fungsi-Output-Pada-C-
+# Contoh-Sederhana-Fungsi-Output-Pada-C++
 Contoh Fungsi Output Dengan Fungsi WriteLine()
 
 Seperti halnya fungsi input, fungsi output pada C# memiliki lebih dari satu fungsi. Untuk lebih jelasnya dapat dilihat pada tabel berikut.
